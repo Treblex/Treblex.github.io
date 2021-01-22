@@ -52,8 +52,8 @@
     {{ with .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | absURL }}" async>{{ end }}
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-    {{- if eq .Site.Params.comment.type "gitalk"}} 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>    
+    {{- if eq .Site.Params.comment.type "gitalk"}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
     {{- end }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
@@ -61,6 +61,10 @@
     {{- template "_internal/google_news.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
+
+    {{if .Site.Params.Site.Favicon}}
+    <link rel="shortcut icon" href="{{.Site.Params.Site.Favicon}}">
+    {{end}}
 
     <!-- Polyfill for old browsers -->
     {{ `<!--[if lte IE 9]>

@@ -97,7 +97,7 @@ params:
   # profile
   profile:
     enabled: true # Whether to show profile bar
-    avatar: avatar.png
+    avatar: https://avatars.githubusercontent.com/u/31238785?s=460&u=1536ec8129ea0d5e30d8a4bf88682d26dd26a7bf&v=4
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: 小孩儿
     author_title: 啥都学一点的小白~
@@ -109,7 +109,7 @@ params:
       links:
         github: https://github.com/treblex
         # weibo: http://weibo.com/{yourid}
-        twitter: https://twitter.com/suke971219
+        # twitter: https://twitter.com/suke971219
         # facebook: /
         rss: /index.xml
       link_tooltip: true # enable the social link tooltip, options: true, false
@@ -119,9 +119,9 @@ params:
       enabled: true
       width: 40
       height: 40
-      url: favicon.ico
+      url: /
     title: Hugo # 页面title
-    favicon: favicon.ico
+    favicon: https://avatars.githubusercontent.com/u/31238785?s=460&u=1536ec8129ea0d5e30d8a4bf88682d26dd26a7bf&v=4
     board: <p>enjoy~</p> # 公告牌
 
   # Share
@@ -191,7 +191,7 @@ params:
 
   # Search
   search:
-    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
+    enable: false # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
 
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
