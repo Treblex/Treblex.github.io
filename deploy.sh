@@ -35,6 +35,6 @@ git push origin HEAD:gh-pages --force
 git add .
 git commit -m "$msg"
 # 切换主分支
-git checkout master
+git checkout main
 # 删除临时分支
 git branch -D build
