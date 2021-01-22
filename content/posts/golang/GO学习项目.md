@@ -3,6 +3,7 @@ title: GO学习项目
 intro: ""
 featured_image: ""
 date: 2020-01-26 14:33:00
+categories: ["golang"]
 ---
 
 # Go-echo-demo

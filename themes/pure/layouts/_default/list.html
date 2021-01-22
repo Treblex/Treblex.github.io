@@ -1,5 +1,5 @@
 {{- define "content"}}
-{{$pages := $.Scratch.Get "pages"}}
+{{$pages := .Pages}}
 <main class="main" role="main">
     <article class="content article article-archives article-type-list" itemscope="">
         <header class="article-header">
@@ -40,7 +40,7 @@
                     {{- $emptyDatePages = $emptyDatePages | append $page}}
                 {{- end }}
             {{- end}}
-            {{- if $emptyDatePages}} 
+            {{- if $emptyDatePages}}
             </div></div></div></section>
             <section class="panel panel-default b-no">
                 <div class="panel-heading" role="tab">

@@ -3,6 +3,7 @@ title: Flutter实践
 intro: ""
 featured_image: ""
 date: 2020-03-16 12:03:44
+series: ["Themes Guide"]
 ---
 
 # 环境配置
