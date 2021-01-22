@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-author = "Hugo Authors"
-title = "Vitae"
+baseURL = "/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+author = "小孩儿"
+title = "suke`s 笔记"
 theme = "vitae"
 paginate = 5
 enableRobotsTXT = true
@@ -25,16 +25,16 @@ googleAnalytics = ""
 	homepage = false
 
 	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["hugo","vitae","theme","static"]
+	keywords = ["golang","javascript","java","移动端开发","web开发"]
 
 	# Add meta description in head part
-	description = "Vitae is a blog theme for Hugo that focuses on your content."
+	description = "notes"
 
 	# Add pagetitle to homepage <title> tag
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	subtitle = "她的眼里有光，她爱的人是谁呢~"
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -63,7 +63,7 @@ googleAnalytics = ""
 # Comments
 [params.comments]
 # Enable Comments with "true"
-enabled = false
+enabled = true
 
 # Comment provider:
 #   disqus (https://disqus.com)
@@ -109,7 +109,7 @@ weight = 5
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-url = "https://github.com/dataCobra/hugo-vitae"
+url = "https://github.com/Treblex"
 
 #[[params.social]]
 #name = "Email"
