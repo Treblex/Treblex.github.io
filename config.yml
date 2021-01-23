@@ -57,10 +57,10 @@ menu:
       url: /tags/
       weight: 4
 
-    - identifier: project
-      name: project
-      title: Project
-      url: /project/
+    - identifier: projects
+      name: projects
+      title: Projects
+      url: /projects/
       weight: 4
     - identifier: about
       name: About
@@ -79,7 +79,7 @@ params:
   # Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
   enableMathJax: true #Enable mathjax support, to use mathematical notations
   highlightjs:
-    langs: ["python", "javascript", "java", "shell", "rust"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+    langs: ["python", "javascript", "java", "shell", "rust", "golang"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
 
   tag_cloud:
     min: 8
@@ -98,6 +98,7 @@ params:
     books: icon-book-fill
     links: icon-friendship
     about: icon-cup-fill
+    projects: icon-folder
 
   # profile
   profile:
