@@ -57,6 +57,11 @@ menu:
       url: /tags/
       weight: 4
 
+    - identifier: project
+      name: project
+      title: Project
+      url: /project/
+      weight: 4
     - identifier: about
       name: About
       title: About
