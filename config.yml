@@ -118,6 +118,7 @@ params:
         # twitter: https://twitter.com/suke971219
         # facebook: /
         rss: /index.xml
+        link: https://diff.blog/
       link_tooltip: true # enable the social link tooltip, options: true, false
   # Site
   site:
