@@ -2,8 +2,14 @@
 <blockquote class="mt-2x">
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
-      <strong>{{ T "copyright_post" }}: </strong>
-      <a href="{{- .Permalink }}" title="{{- .Title }}" target="_blank" rel="external">{{- .Permalink }}</a>
+      <div style="display:flex;flex-direction:row">
+        <div style="flex: 1;">
+          <strong>{{ T "copyright_post" }}: </strong>
+      <a style="word-break:break-all; " href="{{- .Permalink }}" title="{{- .Title }}" target="_blank" rel="external">{{- .Permalink }}</a>
+
+        </div>
+        <img src="http://utils.abadboy.cn/qr?text={{- .Permalink}}" width="100" alt="">
+      </div>
     </li>
     <li class="post-copyright-license">
       <strong>{{ T "copyright_license" }}: </strong>
