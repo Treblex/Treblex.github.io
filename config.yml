@@ -109,11 +109,11 @@ params:
     author_title: 啥都学一点的小白~
     author_description: Good Good Study, Day Day Up~
     location: beijing, China
-    follow: https://github.com/treblex
+    follow: https://github.com/lazyfairy
     # Social Links
     social:
       links:
-        github: https://github.com/treblex
+        github: https://github.com/lazyfairy
         # weibo: http://weibo.com/{yourid}
         # twitter: https://twitter.com/suke971219
         # facebook: /
